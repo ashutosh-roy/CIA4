@@ -1,21 +1,16 @@
 # QuizApp
-### This Repository contains first android app which I bulit.This is A Sample Quiz App.
+### This is A Sample Quiz App with login functionality.
 ## Screen Shots of the Resulting App
-### GIF
-![Demo of Quiz App](https://media.giphy.com/media/S8g8B85PfmPbOpeWOY/giphy.gif)
-### Screenshot 1
 
-![quiz Screeenshots](ScreenShot1.png)
+### Login Interface
 
-### Screenshot 2
+![quiz Screeenshots](Login.png)
 
-![quiz Screeenshots](ScreenShot2.png)
+### Choice Interface
 
-### Screenshot 3
+![quiz Screeenshots](Choice.png)
 
-![quiz Screeenshots](ScreenShot3.png)
+### Question Interface
 
-### Screenshot 4
-
-![quiz Screeenshots](ScreenShot4.png)
+![quiz Screeenshots](Question.png)
 
