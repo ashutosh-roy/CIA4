@@ -1,22 +1,19 @@
 package com.example.quizapp;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.os.PersistableBundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.shashank.sony.fancytoastlib.FancyToast;
 
-public class MainActivity extends AppCompatActivity {
+public class Java extends AppCompatActivity {
+
     private final String SCORE_KEY="SCORE";
     private final String INDEX_KEY="INDEX";
     private TextView mTxtQuestion;
@@ -30,9 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
 
     private QuizModel[] questionCollection = new QuizModel[]{
-            new QuizModel(R.string.q1,true),
-            new QuizModel(R.string.q2,true),
-            new QuizModel(R.string.q3,false),
+            new QuizModel(R.string.q4,true),
+            new QuizModel(R.string.q5,true),
+            new QuizModel(R.string.q6,false),
 
 
     };
@@ -109,8 +106,8 @@ public class MainActivity extends AppCompatActivity {
     private void evaluateUserAnswer(boolean userGuess){
         boolean currentQuestionAnswer = questionCollection[mQuestionIndex].ismAnswer();
         if(currentQuestionAnswer== userGuess){
-          FancyToast.makeText(getApplicationContext(),"Correct Answer", FancyToast.LENGTH_SHORT,FancyToast.SUCCESS,true).show();
-          mUserScore=mUserScore+1;
+            FancyToast.makeText(getApplicationContext(),"Correct Answer", FancyToast.LENGTH_SHORT,FancyToast.SUCCESS,true).show();
+            mUserScore=mUserScore+1;
         }
         else{
             FancyToast.makeText(getApplicationContext(),"Wrong Answer!",FancyToast.LENGTH_SHORT,FancyToast.ERROR,true).show();
@@ -156,4 +153,5 @@ public class MainActivity extends AppCompatActivity {
 ////        outState.putInt(SCORE_KEY,mUserScore);
 ////        outState.putInt(INDEX_KEY,mQuestionIndex);
 ////    }
+
 }

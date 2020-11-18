@@ -6,16 +6,19 @@
     <string name="first_score_text">Correct!</string>
     <string name="correct_toast_message">Correct!</string>
     <string name="incorrect_toast_message">InCorrect!</string>
-    <string name="q1"> Vishnu is a good Boy</string>
-    <string name="q2">A honey bee can fly at 15mph.</string>
-    <string name="q3">A jellyfish is approximately 95% water.!</string>
-    <string name="q4">Elephants are the ony animals that can\'t jump</string>
-    <string name="q5">Cats can hear Ultrasounds</string>
-    <string name="q6">A human brain weighs about three pounds.</string>
-    <string name="q7">The tongue is the fastest healing part of the body.</string>
-    <string name="q8">Americans,on average eat 18 acres of \"pizza\" a day.</string>
-    <string name="q9">A kangaroo can jump up to 30 feet.</string>
-    <string name="q10">The tallest man was 8 feet 11 inches.</string>
+    <string name="q1">Python is an interpreted language</string>
+    <string name="q2">Django is a python based framework</string>
+    <string name="q3">A list is immutable</string>
+    <string name="q4">Is Java OOP Language? </string>
+    <string name="q5">Is multiple inheritance supported in java?</string>
+    <string name="q6">is final block mandatory in java?</string>
+    <string name="q7">The creator of photoshop is Microsoft?</string>
+    <string name="q8">Every tool can be activated by a key stroke</string>
+    <string name="q9">You cannot delete the layers after they have been created</string>
+
+
+
+
 
 
 
