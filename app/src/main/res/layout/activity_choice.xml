@@ -45,12 +45,13 @@
             android:text="Multimedia" />
 
     </RadioGroup>
+
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_margin="20dp"
-        android:background="#13334c"
+        android:background="@color/colorPrimaryDark"
         android:includeFontPadding="false"
         android:text="Choose"
         android:textColor="#ffffff"
